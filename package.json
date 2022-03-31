@@ -1,0 +1,28 @@
+{
+  "name": "email-validation",
+  "version": "0.0.1",
+  "description": "Validating Email made easy!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neseek77/email-validation.git"
+  },
+  "keywords": [
+    "email",
+    "validation",
+    "mxrecord",
+    "rdns"
+  ],
+  "author": "senthamizh@comxtech.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Neseek77/email-validation/issues"
+  },
+  "homepage": "https://github.com/Neseek77/email-validation#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}

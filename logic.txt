@@ -1,0 +1,31 @@
+1) https://m2a.paper2apps.com:4443/DataURL?APIKey=a569e8d6-0fc9-11ec-938e-00163ee0f928
+
+	Correct value will return a $URL
+	https://medi2appsdev001.paper2apps.com
+
+	new prNumber : c6133731-96da-11e7-8357-00163ef03640
+	new passWord : Test
+
+	if incorrect it will return blank (eg.https://m2a.paper2apps.com:4443/DataURL?APIKey=a569e8d6-0fc9-11ec-938e-00163ee0f929)
+
+
+2) $URL/App/CheckDetails.php?username=a569e8d6-0fc9-11ec-938e-00163ee0f928&password=9999
+
+https://medi2appsdev001.paper2apps.com/App/CheckDetails.php?username=a569e8d6-0fc9-11ec-938e-00163ee0f928&password=9999
+
+
+	if Correct value: ({"result":"1","IsActive":"1"})
+		 Window open as redirectURL "https://m2a.paper2apps.com:4443/M2ACheckIn?APIKey="+APIKey&Forms_Need_Code=0&Client_IP=x.x.x.&DeviceUUD=XXX&DeviceCordova=XX&Device_model=XXX&Device_platform=XXX,Device_version=XXX,Device_manufacturer=XXXX,Device_Serial=XXXX
+		window.open(redirectURL, '_self', 'location=no,clearcache=yes,clearsessioncache=yes,toolbar=no,allowInlineMediaPlayback=yes,fullscreen=yes,hardwareback=no');
+	
+	
+
+else eg. https://medi2appsdev001.paper2apps.com/App/CheckDetails.php?username=1331fa40-caa7-11e8-92f9-00163ee0f928&password=Test 
+({"result":"1","IsActive":"0"})
+Your account appears to be inactive, please contact Medi2Apps Suppport on (07)3333-2370 or email support@paper2apps.com"
+
+
+else  ({"result":"0","IsActive":"0"}) eg. https://medi2appsdev001.paper2apps.com/App/CheckDetails.php?username=a569e8d6-0fc9-11ec-938e-00163ee0f928&password=99999
+"Incorrect Practice reference number or password Entered."
+
+   
